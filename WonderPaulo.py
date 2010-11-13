@@ -19,7 +19,7 @@ for i in range(1,10):
     elif "baise" in Question:
         print "C'est ta mère qu'je baise."
     elif "bisou" in Question or "bisous" in Question:
-        print "Arrete, j'ai du boulot."
+        print "Arrete, j'ai du boulot, j'suis en 4IF."
     elif "non" in Question:
         print "Si."
     elif "aider"in Question or "faire" in Question:
@@ -27,7 +27,7 @@ for i in range(1,10):
     elif "sudo" in Question:
         print "Ok."
     elif "windows" in Question  or "apple" in Question or "ipod" in Question or "mac" in Question:
-        print "Toute façon, c'est d'la merde."
+Tu        print "Toute façon, c'est d'la merde."
     else:
         if r==1:
             print "TATATATA."
