@@ -8,11 +8,11 @@ print "Le premier simulateur de Paul Adenot !"
 print "C'est comme l'avoir en co-TP!\n"
 print "Pose tes questions à WonderPaulo !\n"
 
-for i in range(1,10):
-    Question=(raw_input(">"))
-    Question=Question.lower()
-    
-    r=random.randint(1,6)
+for i in range(1, 10):
+    Question = (raw_input(">"))
+    Question = Question.lower()
+
+    r = random.randint(1, 6)
 
     if "ne" in Question:
         print "Non."
@@ -26,20 +26,19 @@ for i in range(1,10):
         print "Pas le temps."
     elif "sudo" in Question:
         print "Ok."
-    elif "windows" in Question  or "apple" in Question or "ipod" in Question or "mac" in Question:
-Tu        print "Toute façon, c'est d'la merde."
+    elif "windows" in Question or "apple" in Question or "ipod" in Question or "mac" in Question:
+        print "Toute façon, c'est d'la merde."
     else:
-        if r==1:
+        if r == 1:
             print "TATATATA."
-        elif r==2:
+        elif r == 2:
             print "Non."
-        elif r==3:
+        elif r == 3:
             print "C'est d'la merde."
-        elif r==4:
+        elif r == 4:
             print "J'vais m'prendre un café."
-        elif r==5:
+        elif r == 5:
             print "Ecoute ma p'tite chatte, j'ai pas le temps pour ces conneries!"
         else:
             print "J'te buttfuck comme une souillon."
     print ""
-
